@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'accounts',
     'dashboard',
     'contents',
-    'members',
 ]
 
 MIDDLEWARE = [
