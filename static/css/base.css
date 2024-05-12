@@ -7,3 +7,21 @@ html {
 * {
     box-sizing: border-box;
 }
+
+.loading {
+    border-top-color: rgb(139 92 246);
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    -webkit-animation: loading 1.5s linear infinite;
+    animation: loading 1.5s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
